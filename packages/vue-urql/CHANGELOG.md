@@ -1,5 +1,13 @@
 # @urql/vue
 
+## 0.6.5
+
+### Patch Changes
+
+- Support nested refs in variables, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2608](https://github.com/FormidableLabs/urql/pull/2608))
+- Updated dependencies (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+  - @urql/core@2.7.0
+
 ## 0.6.4
 
 ### Patch Changes

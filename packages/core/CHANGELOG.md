@@ -1,5 +1,11 @@
 # @urql/core
 
+## 2.7.0
+
+### Minor Changes
+
+- Remove the `babel-plugin-modular-graphql` helper, this because the graphql package hasn't converted to ESM yet which gives issues in node environments, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+
 ## 2.6.1
 
 ### Patch Changes

@@ -1,5 +1,17 @@
 # @urql/exchange-graphcache
 
+## 4.5.0
+
+### Minor Changes
+
+- Remove the `babel-plugin-modular-graphql` helper, this because the graphql package hasn't converted to ESM yet which gives issues in node environments, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+- Allow passing in `fragmentName` for `write` and `read` operations, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2609](https://github.com/FormidableLabs/urql/pull/2609))
+
+### Patch Changes
+
+- Updated dependencies (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+  - @urql/core@2.7.0
+
 ## 4.4.3
 
 ### Patch Changes

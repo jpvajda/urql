@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.3.0
+
+### Minor Changes
+
+- Remove the `babel-plugin-modular-graphql` helper, this because the graphql package hasn't converted to ESM yet which gives issues in node environments, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+
+### Patch Changes
+
+- ⚠️ fix return for context function argument, by [@JoviDeCroock](https://github.com/JoviDeCroock) (See [#2583](https://github.com/FormidableLabs/urql/pull/2583))
+- Updated dependencies (See [#2551](https://github.com/FormidableLabs/urql/pull/2551))
+  - @urql/core@2.7.0
+
 ## 1.2.3
 
 ### Patch Changes
